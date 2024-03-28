@@ -1,4 +1,4 @@
-package com.cagece.indicaai.indicaai.model.entities;
+package com.cagece.indicaai.indicaai.model.entity;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

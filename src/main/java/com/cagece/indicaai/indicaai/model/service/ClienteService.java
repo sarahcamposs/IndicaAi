@@ -8,6 +8,7 @@ import com.cagece.indicaai.indicaai.model.repositorio.ClienteRepositorio;
 @Service
 public class ClienteService {
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private ClienteRepositorio clienteRepositorio;
 	

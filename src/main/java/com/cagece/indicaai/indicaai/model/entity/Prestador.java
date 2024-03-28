@@ -47,7 +47,7 @@ public class Prestador {
 
 	@OneToOne
 	@JoinColumn(name = "cal_calendario")
-	private Calendario calendario;
+	private CalendarioPrestador calendario;
 
 	@OneToMany(mappedBy = "prestador")
 	private List<OrdemServico> lstOrdemServicos;

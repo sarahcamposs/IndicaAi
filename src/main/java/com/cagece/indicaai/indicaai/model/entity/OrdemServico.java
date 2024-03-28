@@ -11,7 +11,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 
@@ -45,7 +44,7 @@ public class OrdemServico {
 
 	@Enumerated(EnumType.STRING)
 	@Column(name = "flg_id_estado_os")
-	private flgEstadoOrdemServico flgEstadoOrdemServico;
+	private FlgEstadoOrdemServico flgEstadoOrdemServico;
 
 	@ManyToOne
 	@JoinColumn(name = "flg_id_form_pag")

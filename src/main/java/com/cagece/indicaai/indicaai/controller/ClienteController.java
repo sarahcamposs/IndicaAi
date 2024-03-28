@@ -11,6 +11,7 @@ import com.cagece.indicaai.indicaai.model.service.ClienteService;
 @RequestMapping("/clientes")
 public class ClienteController {
 	
+	@SuppressWarnings("unused")
 	@Autowired
 	private ClienteService clienteService;
 
